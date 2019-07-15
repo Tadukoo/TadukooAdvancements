@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow"
+    },
+    "title": "Pillager Death",
+    "description": "Die to a Pillager"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/many_ways_to_die",
+  "criteria": {
+    "pillager_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pillager"
+        }
+      }
+    }
+  }
+}

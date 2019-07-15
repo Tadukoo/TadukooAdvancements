@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ghast_tear"
+    },
+    "title": "Ghast Death",
+    "description": "Die to a Ghast"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/magma_cube_death",
+  "criteria": {
+    "ghast_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ghast"
+        }
+      }
+    }
+  }
+}

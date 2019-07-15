@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cod"
+    },
+    "title": "Dolphin Death",
+    "description": "Die to a Dolphin"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/many_ways_to_die",
+  "criteria": {
+    "dolphin_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:dolphin"
+        }
+      }
+    }
+  }
+}

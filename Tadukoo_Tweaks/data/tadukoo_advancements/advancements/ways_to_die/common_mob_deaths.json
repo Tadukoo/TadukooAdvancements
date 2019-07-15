@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": "Common Mob Deaths",
+    "description": "Die to all common mobs",
+	"frame": "challenge"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/slime_death",
+  "criteria": {
+    "creeper_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creeper"
+        }
+      }
+    },
+	"zombie_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie"
+        }
+      }
+    },
+	"skeleton_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton"
+        }
+      }
+    },
+	"spider_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:spider"
+        }
+      }
+    },
+	"slime_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:slime"
+        }
+      }
+    }
+  }
+}

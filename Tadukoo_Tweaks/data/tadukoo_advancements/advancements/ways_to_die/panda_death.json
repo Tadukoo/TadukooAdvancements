@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bamboo"
+    },
+    "title": "Panda Death",
+    "description": "Die to a Panda"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/polar_bear_death",
+  "criteria": {
+    "panda_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:panda"
+        }
+      }
+    }
+  }
+}

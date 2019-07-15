@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": "Nether Mob Deaths",
+    "description": "Die to all Nether mobs",
+	"frame": "challenge"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/ghast_death",
+  "criteria": {
+    "zombie_pigman_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_pigman"
+        }
+      }
+    },
+	"wither_skeleton_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton"
+        }
+      }
+    },
+	"blaze_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:blaze"
+        }
+      }
+    },
+	"magma_cube_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:magma_cube"
+        }
+      }
+    },
+	"ghast_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ghast"
+        }
+      }
+    }
+  }
+}

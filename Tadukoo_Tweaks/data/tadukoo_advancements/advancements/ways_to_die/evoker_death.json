@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "title": "Evoker Death",
+    "description": "Die to an Evoker"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/witch_death",
+  "criteria": {
+    "evoker_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:evoker"
+        }
+      }
+    }
+  }
+}

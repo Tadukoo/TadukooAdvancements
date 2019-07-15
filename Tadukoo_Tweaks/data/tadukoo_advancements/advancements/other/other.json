@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "title": "Other",
+        "description": "Some more random challenges",
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "join": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

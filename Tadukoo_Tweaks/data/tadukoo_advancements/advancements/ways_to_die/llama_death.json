@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_carpet"
+    },
+    "title": "Llama Death",
+    "description": "Die to a Llama"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/panda_death",
+  "criteria": {
+    "llama_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:llama"
+        }
+      }
+    }
+  }
+}

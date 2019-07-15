@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": "Zombie Villager Death",
+    "description": "Die to a Zombie Villager"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/husk_death",
+  "criteria": {
+    "zombie_villager_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager"
+        }
+      }
+    }
+  }
+}

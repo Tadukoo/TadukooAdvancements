@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "title": "Guardian Death",
+    "description": "Die to a Guardian"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/pufferfish_death",
+  "criteria": {
+    "guardian_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:guardian"
+        }
+      }
+    }
+  }
+}

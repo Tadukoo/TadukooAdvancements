@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pufferfish"
+    },
+    "title": "Pufferfish Death",
+    "description": "Die to a Pufferfish"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/dolphin_death",
+  "criteria": {
+    "pufferfish_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pufferfish"
+        }
+      }
+    }
+  }
+}

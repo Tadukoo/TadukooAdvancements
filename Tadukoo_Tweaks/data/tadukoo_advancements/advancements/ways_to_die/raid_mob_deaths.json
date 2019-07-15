@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:white_banner",
+      "nbt": "{BlockEntityTag:{Patterns:[{Color:9,Pattern:\"mr\"},{Color:8,Pattern:\"bs\"},{Color:7,Pattern:\"cs\"},{Color:8,Pattern:\"bo\"},{Color:15,Pattern:\"ms\"},{Color:8,Pattern:\"hh\"},{Color:8,Pattern:\"mc\"},{Color:15,Pattern:\"bo\"}]},display:{Name:\u0027{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}\u0027}}"
+    },
+    "title": "Raid Mob Deaths",
+    "description": "Die to all raid mobs",
+	"frame": "challenge"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/vex_death",
+  "criteria": {
+    "pillager_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pillager"
+        }
+      }
+    },
+	"ravager_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ravager"
+        }
+      }
+    },
+	"vindicator_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator"
+        }
+      }
+    },
+    "witch_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:witch"
+        }
+      }
+    },
+	"evoker_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:evoker"
+        }
+      }
+    },
+	"vex_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vex"
+        }
+      }
+    }
+  }
+}

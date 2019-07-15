@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:saddle"
+    },
+    "title": "Ravager Death",
+    "description": "Die to a Ravager"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/pillager_death",
+  "criteria": {
+    "ravager_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ravager"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sand"
+    },
+    "title": "Husk Death",
+    "description": "Die to a Husk"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/drowned_death",
+  "criteria": {
+    "husk_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:husk"
+        }
+      }
+    }
+  }
+}

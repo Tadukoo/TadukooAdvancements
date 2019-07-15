@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_box"
+    },
+    "title": "Shulker Death",
+    "description": "Die to a Shulker"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/silverfish_death",
+  "criteria": {
+    "shulker_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:shulker"
+        }
+      }
+    }
+  }
+}

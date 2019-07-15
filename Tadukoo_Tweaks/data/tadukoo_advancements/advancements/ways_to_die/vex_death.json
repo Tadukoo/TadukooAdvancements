@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": "Vex Death",
+    "description": "Die to a Vex"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/evoker_death",
+  "criteria": {
+    "vex_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vex"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "title": "Zombie Death",
+    "description": "Die to a Zombie"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/creeper_death",
+  "criteria": {
+    "zombie_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_axe"
+    },
+    "title": "Vindicator Death",
+    "description": "Die to a Vindicator"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/ravager_death",
+  "criteria": {
+    "vindicator_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator"
+        }
+      }
+    }
+  }
+}

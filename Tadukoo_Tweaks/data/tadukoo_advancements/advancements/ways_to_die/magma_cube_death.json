@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:magma_cream"
+    },
+    "title": "Magma Cube Death",
+    "description": "Die to a Magma Cube"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/blaze_death",
+  "criteria": {
+    "magma_cube_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:magma_cube"
+        }
+      }
+    }
+  }
+}

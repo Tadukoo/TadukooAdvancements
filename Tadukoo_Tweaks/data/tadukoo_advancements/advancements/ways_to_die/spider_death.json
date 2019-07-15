@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spider_eye"
+    },
+    "title": "Spider Death",
+    "description": "Die to a Spider"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/skeleton_death",
+  "criteria": {
+    "spider_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:spider"
+        }
+      }
+    }
+  }
+}

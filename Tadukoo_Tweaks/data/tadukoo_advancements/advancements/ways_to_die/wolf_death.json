@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bone"
+    },
+    "title": "Wolf Death",
+    "description": "Die to a Wolf"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/dolphin_death",
+  "criteria": {
+    "wolf_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wolf"
+        }
+      }
+    }
+  }
+}

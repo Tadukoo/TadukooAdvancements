@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine"
+    },
+    "title": "Elder Guardian Death",
+    "description": "Die to an Elder Guardian"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/guardian_death",
+  "criteria": {
+    "elder_guardian_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:elder_guardian"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "title": "Variant Mob Deaths",
+    "description": "Die to all variant mobs",
+	"frame": "challenge"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/cave_spider_death",
+  "criteria": {
+    "drowned_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:drowned"
+        }
+      }
+    },
+	"husk_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:husk"
+        }
+      }
+    },
+	"zombie_villager_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_villager"
+        }
+      }
+    },
+	"stray_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:stray"
+        }
+      }
+    },
+	"cave_spider_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cave_spider"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_bricks"
+    },
+    "title": "Silverfish Death",
+    "description": "Die to a Silverfish"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/endermite_death",
+  "criteria": {
+    "silverfish_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:silverfish"
+        }
+      }
+    }
+  }
+}

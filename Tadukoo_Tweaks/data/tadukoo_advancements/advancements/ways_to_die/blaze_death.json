@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blaze_rod"
+    },
+    "title": "Blaze Death",
+    "description": "Die to a Blaze"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/wither_skeleton_death",
+  "criteria": {
+    "blaze_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:blaze"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:poppy"
+    },
+    "title": "Neutral Mob Deaths",
+    "description": "Die to all neutral mobs",
+	"frame": "challenge"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/trader_llama_death",
+  "criteria": {
+    "dolphin_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:dolphin"
+        }
+      }
+    },
+    "wolf_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wolf"
+        }
+      }
+    },
+    "iron_golem_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    },
+	"polar_bear_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:polar_bear"
+        }
+      }
+    },
+	"panda_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:panda"
+        }
+      }
+    },
+	"llama_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:llama"
+        }
+      }
+    },
+	"trader_llama_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:trader_llama"
+        }
+      }
+    }
+  }
+}

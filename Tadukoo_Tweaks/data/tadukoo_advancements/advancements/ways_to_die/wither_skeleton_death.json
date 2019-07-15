@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": "Wither Skeleton Death",
+    "description": "Die to a Wither Skeleton"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/zombie_pigman_death",
+  "criteria": {
+    "wither_skeleton_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton"
+        }
+      }
+    }
+  }
+}

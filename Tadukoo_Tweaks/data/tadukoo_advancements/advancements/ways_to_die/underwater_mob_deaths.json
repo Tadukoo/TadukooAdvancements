@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_cod"
+    },
+    "title": "Underwater Mob Deaths",
+    "description": "Die to all underwater mobs",
+	"frame": "challenge"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/elder_guardian_death",
+  "criteria": {
+    "dolphin_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:dolphin"
+        }
+      }
+    },
+	"pufferfish_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pufferfish"
+        }
+      }
+    },
+	"guardian_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:guardian"
+        }
+      }
+    },
+	"elder_guardian_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:elder_guardian"
+        }
+      }
+    }
+  }
+}

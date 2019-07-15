@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": "Enderman Death",
+    "description": "Die to an Enderman"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/many_ways_to_die",
+  "criteria": {
+    "enderman_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:enderman"
+        }
+      }
+    }
+  }
+}

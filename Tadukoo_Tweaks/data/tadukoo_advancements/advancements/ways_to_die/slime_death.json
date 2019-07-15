@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:slime_ball"
+    },
+    "title": "Slime Death",
+    "description": "Die to a Slime"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/spider_death",
+  "criteria": {
+    "slime_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:slime"
+        }
+      }
+    }
+  }
+}

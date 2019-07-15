@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ice"
+    },
+    "title": "Stray Death",
+    "description": "Die to a Stray"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/zombie_villager_death",
+  "criteria": {
+    "stray_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:stray"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glass_bottle"
+    },
+    "title": "Witch Death",
+    "description": "Die to a Witch"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/vindicator_death",
+  "criteria": {
+    "witch_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:witch"
+        }
+      }
+    }
+  }
+}

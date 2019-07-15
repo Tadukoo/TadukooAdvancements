@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_carpet"
+    },
+    "title": "Trader Llama Death",
+    "description": "Die to a Trader Llama"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/llama_death",
+  "criteria": {
+    "trader_llama_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:trader_llama"
+        }
+      }
+    }
+  }
+}

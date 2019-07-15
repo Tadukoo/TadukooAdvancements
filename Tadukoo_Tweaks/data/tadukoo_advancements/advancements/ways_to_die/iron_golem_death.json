@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:poppy"
+    },
+    "title": "Iron Golem Death",
+    "description": "Die to an Iron Golem"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/wolf_death",
+  "criteria": {
+    "iron_golem_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:iron_golem"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "title": "Cave Spider Death",
+    "description": "Die to a Cave Spider"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/stray_death",
+  "criteria": {
+    "cave_spider_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cave_spider"
+        }
+      }
+    }
+  }
+}

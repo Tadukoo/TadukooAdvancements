@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head"
+        },
+        "title": "38 Ways to Die",
+        "description": "Find different ways to die",
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "death": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

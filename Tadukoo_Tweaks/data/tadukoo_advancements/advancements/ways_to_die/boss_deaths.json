@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_head"
+    },
+    "title": "Boss Deaths",
+    "description": "Die to all bosses",
+	"frame": "challenge"
+  },
+  "parent": "tadukoo_advancements:ways_to_die/ender_dragon_death",
+  "criteria": {
+    "wither_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither"
+        }
+      }
+    },
+	"ender_dragon_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    }
+  }
+}
