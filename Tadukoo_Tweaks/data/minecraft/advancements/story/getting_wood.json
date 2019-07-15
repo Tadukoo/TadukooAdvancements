@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_wood"
+    },
+    "title": "Getting Wood",
+    "description": "Attack a tree until a block of wood pops out"
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_wood"
+          }
+        ]
+      }
+    }
+  }
+}

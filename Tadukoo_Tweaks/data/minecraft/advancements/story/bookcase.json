@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:story/enchant_item",
+  "display": {
+    "icon": {
+      "item": "minecraft:bookshelf"
+    },
+    "title": "Librarian",
+    "description": "Build some bookshelves to improve your enchantment table"
+  },
+  "criteria": {
+    "bookshelf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bookshelf"
+          }
+        ]
+      }
+    }
+  }
+}

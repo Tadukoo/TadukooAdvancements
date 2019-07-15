@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:story/mine_diamond",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "title": "Diamonds to You!",
+    "description": "Throw diamonds at another player"
+  },
+  "criteria": {
+    "give_away_diamond": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

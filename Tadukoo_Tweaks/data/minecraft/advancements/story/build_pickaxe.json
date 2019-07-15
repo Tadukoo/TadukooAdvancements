@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:story/benchmarking",
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "title": "Time to Mine!",
+    "description": "Use planks and sticks to make a pickaxe"
+  },
+  "criteria": {
+    "wooden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wooden_pickaxe"
+          }
+        ]
+      }
+    }
+  }
+}
